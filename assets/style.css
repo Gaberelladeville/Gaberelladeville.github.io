@@ -185,6 +185,7 @@ ul.ruled li:last-child { border-bottom: 1px solid var(--rule); }
 .specimen .tag { font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--rust); }
 .specimen h3 { margin: .3rem 0 .4rem; font-style: italic; font-variation-settings: 'opsz' 40, 'SOFT' 10, 'WONK' 1; }
 .specimen p { font-size: .95em; margin-bottom: .6em; }
+.specimen .sp-photo { width: 100%; aspect-ratio: 4/3; object-fit: cover; margin: .3rem 0 .8rem; border: 1px solid var(--paper-edge); }
 .specimen .art { margin: .5rem 0 .8rem; height: 120px; display: flex; align-items: center; }
 .specimen .art svg { height: 100%; width: auto; }
 
