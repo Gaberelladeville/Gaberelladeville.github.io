@@ -255,6 +255,10 @@ ul.ruled li:last-child { border-bottom: 1px solid var(--rule); }
 .hero-art figcaption { margin-top: .5rem; max-width: 40ch; }
 @media (min-width: 900px) { .hero-art { margin-bottom: .5rem; } }
 
+/* placeholders for images still to come */
+.placeholder { border: 1px dashed var(--ink-faint); background: var(--paper-deep); display: flex; flex-direction: column; justify-content: center; padding: 1.2rem; font-size: .9rem; color: var(--ink-soft); line-height: 1.45; max-width: 60ch; }
+.placeholder span { font-family: var(--mono); font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--rust); margin-bottom: .5rem; }
+
 /* video plates */
 figure.plate.dark { background: #0c0b0a; border-color: #2a2622; }
 figure.plate.dark video { width: 100%; display: block; background: #000; }
