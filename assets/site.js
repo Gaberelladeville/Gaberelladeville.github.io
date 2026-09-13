@@ -1,5 +1,9 @@
 // Small, dependency-free helpers. Nothing here is required for the site to read correctly.
 (function () {
+  // Start every page at the top unless a section anchor was requested.
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (!location.hash) { window.scrollTo(0, 0); window.addEventListener('load', function () { window.scrollTo(0, 0); }); }
+
   // Mark the current page in the nav.
   var here = location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.site-nav a').forEach(function (a) {
