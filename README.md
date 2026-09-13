@@ -16,8 +16,7 @@ assets/
   site.js           Nav highlighting, footer year, play-when-visible videos
   favicon.svg
   WintersBostwick_CV.pdf
-  art/*.svg         Line drawings (octopus, squid, sea slugs, arm cross-section, traces)
-  img/*.jpg         Photographs and illustrations
+  img/**/*.jpg      Photographs, micrographs, and illustrations (brain/, ogap/, gastropods/ subfolders)
   video/*.mp4       Calcium-imaging movies with poster frames
 ```
 
@@ -36,20 +35,26 @@ To add a headshot: save it as `assets/img/portrait.jpg` (roughly 4:5, at least 8
 
 ## Publishing on GitHub Pages
 
-1. Create a new repository on GitHub named `Gaberelladeville.github.io` (public).
-2. From this folder:
+The repository is already initialised and committed, and the remote is set to
+`https://github.com/Gaberelladeville/Gaberelladeville.github.io.git`.
+
+1. On github.com, signed in as Gaberelladeville: New repository → name it exactly
+   `Gaberelladeville.github.io` → Public → leave "Add a README" unchecked → Create.
+2. From this folder, push (GitHub will ask for your username and a personal access
+   token in place of a password; create one at Settings → Developer settings →
+   Personal access tokens, with the `repo` scope):
 
 ```bash
-git init
-git add .
-git commit -m "Site"
-git branch -M main
-git remote add origin git@github.com:Gaberelladeville/Gaberelladeville.github.io.git
 git push -u origin main
 ```
 
-3. On GitHub: Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`. The site appears at `https://gaberelladeville.github.io/` within a minute or two.
+3. On GitHub: Settings → Pages → Source: "Deploy from a branch", branch `main`,
+   folder `/ (root)`. The site appears at `https://gaberelladeville.github.io/`
+   within a minute or two.
 
-For a custom domain, add a file named `CNAME` containing the domain (for example `gabriellewintersbostwick.com`) and point the domain's DNS at GitHub Pages.
+After that, every later change is `git add -A && git commit -m "..." && git push`.
+
+For a custom domain, add a file named `CNAME` containing the domain (for example
+`gabriellewintersbostwick.com`) and point the domain's DNS at GitHub Pages.
 
 The `.nojekyll` file tells GitHub to serve the folder as-is.
