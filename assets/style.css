@@ -117,9 +117,8 @@ figure.plate { background: var(--bg2); border: 1px solid var(--rule); border-rad
 figure.plate img { border-radius: 8px; }
 figure.plate.dark { background: #000; }
 figure.plate.dark video { width: 100%; display: block; background: #000; border-radius: 8px; }
-figure.plate.light { background: #f4eddc; border-color: #e2d5b6; }
-figure.plate.light figcaption { color: #5b5246; }
-figure.plate.light figcaption b { color: #a5432a; }
+figure.plate.light { background: var(--bg2); }
+figure.plate.light img { background: #fff; }
 figure.plate figcaption { margin-top: .9rem; }
 figure.wide { margin-left: 0; margin-right: 0; }
 
