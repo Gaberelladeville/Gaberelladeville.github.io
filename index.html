@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="assets/style.css">
 
 </head>
-<body>
+<body data-page="home">
 <header class="site-head">
   <div class="wrap">
     <a class="brand plain" href="index.html">Gabrielle Winters Bostwick <span>Ph.D.</span></a>
@@ -26,27 +26,27 @@
 <main class="wrap">
 
 <section class="hero">
-  <div>
+  <img src="assets/img/hero.jpg" alt="Octopus bocki, arms curling, eye visible">
+  <div class="g"></div>
+  <div class="t">
     <div class="kicker">Gabrielle Winters Bostwick, Ph.D.</div>
-    <h1>Neuroscientist <span class="amp">&amp;</span> comparative physiologist</h1>
+    <h1>Neuroscientist &amp;<br><em>comparative physiologist</em></h1>
     <p class="sub">I study cephalopod nervous systems: how their neurons are specified molecularly, how those neurons form circuits, and how the circuits hold up when the environment changes.</p>
-    <a class="btn" href="research.html">Research</a><a class="btn" href="assets/WintersBostwick_CV.pdf">CV (PDF)</a>
-    <div class="affil">
-      <b>Instructor</b>, Neuroscience, Oregon State University Ecampus<br>
-      <b>Lecturer</b>, Biology, San Francisco State University<br>
-      <b>Kavli-Grass Fellow</b> 2026, Marine Biological Laboratory, Woods Hole
-    </div>
+    <a class="btn" href="research.html">Research</a><a class="btn o" href="assets/WintersBostwick_CV.pdf">CV (PDF)</a>
   </div>
-  <figure class="hero-art">
-    <img src="assets/img/weir-octopus-neuroanatomy.jpg" alt="Illustration of an octopus with the central brain and the axial nerve cord of each arm drawn in colour over the body">
-    <figcaption class="caption">The octopus nervous system: the central brain and the axial nerve cord of each arm. Scientific illustration by Amy L. Weir.</figcaption>
-  </figure>
 </section>
 
+<div class="strip">
+  <div><img src="assets/img/bocki-eyes.jpg" alt="Octopus bocki, mantle and eyes"><div class="c">Octopus bocki</div></div>
+  <div><img src="assets/img/hcr-ring-base-tip.jpg" alt="Multiplexed HCR in the axial nerve cord"><div class="c">Multiplexed HCR, axial nerve cord</div></div>
+  <div><img src="assets/video/calcium-transmitters-poster.jpg" alt="Calcium imaging of a live nerve cord slice"><div class="c">Calcium imaging, live slice</div></div>
+  <div><img src="assets/img/octopus-bimaculoides.jpg" alt="Octopus bimaculoides"><div class="c">Octopus bimaculoides</div></div>
+</div>
+
 <nav class="doors" aria-label="Main sections">
-  <a href="research.html"><span class="label">Research</span><h3>Cephalopod nervous systems, from molecules to circuits</h3><p>Molecular atlases and calcium imaging of octopus neural circuits, and a research program on how those circuits respond to thermal and CO₂ stress.</p></a>
-  <a href="teaching.html"><span class="label">Teaching</span><h3>Instructor of record at four institutions</h3><p>Introductory biology through molecular genetics and physiology, in person and online. Evidence-based course design and research projects students can own.</p></a>
-  <a href="horizons.html"><span class="label">Horizons</span><h3>Where the work goes next</h3><p>The central brain, gastropod circuits, the Ocean Genome Atlas Project, and public engagement.</p></a>
+  <a class="d1" href="research.html"><span class="label">Research</span><h3>Cephalopod nervous systems, from molecules to circuits</h3><p>Molecular atlases and calcium imaging of octopus neural circuits, and a research program on how those circuits respond to thermal and CO₂ stress.</p></a>
+  <a class="d2" href="teaching.html"><span class="label">Teaching</span><h3>Instructor of record at four institutions</h3><p>Introductory biology through molecular genetics and physiology, in person and online. Evidence-based course design and research projects students can own.</p></a>
+  <a class="d3" href="horizons.html"><span class="label">Horizons</span><h3>Where the work goes next</h3><p>The central brain, gastropod circuits, the Ocean Genome Atlas Project, and public engagement.</p></a>
 </nav>
 
 <div class="page">
@@ -58,12 +58,14 @@
     <p>Instructor of record at four institutions. Mentor to NSF REU, undergraduate, and master's students, several now co-authors.</p>
   </aside>
   <div class="body">
-    <p class="lede dropcap">Cephalopods have the largest and most complex nervous systems of any invertebrate: a multi-lobed central brain and, in octopuses, an axial nerve cord in each arm that together hold about two-thirds of the animal's neurons. I work on the molecular organization of these nervous systems and on the physiology of the circuits they contain.</p>
+    <p class="lede">Cephalopods have the largest and most complex nervous systems of any invertebrate. <b>About two-thirds of an octopus's neurons are in its arms.</b></p>
+    <p>A multi-lobed central brain and, in octopuses, an axial nerve cord in each arm. I work on the molecular organization of these nervous systems and on the physiology of the circuits they contain.</p>
     <p>My doctoral work, with Leonid Moroz at the Whitney Laboratory, mapped molecular diversity in the octopus brain, with a focus on neuropeptides and the neurotransmitter and neuromodulator systems of the learning and memory network. My postdoctoral work, in Robyn Crook's laboratory at San Francisco State University, moved to the arm: I produced the first three-dimensional molecular atlas of the axial nerve cord, then established calcium imaging in living slices of the cord to record how its neuronal populations respond to neurotransmitters. The arm has been my focus for the past four years. It is not the only part of the cephalopod nervous system I work on, and my research program treats brain and arm together: which neuronal cell types keep signaling under thermal and hypercapnic stress, and what protects them.</p>
     <figure class="plate dark">
       <video data-autoplay muted loop playsinline preload="metadata" poster="assets/video/arm-suckers-poster.jpg"><source src="assets/video/arm-suckers.mp4" type="video/mp4"></video>
       <figcaption class="caption">An arm of <span class="sp">Octopus bocki</span> against the glass. Each sucker has a ganglion in the axial nerve cord behind it.</figcaption>
     </figure>
+    <div class="affil" style="margin:0 0 1.6rem"><b>Instructor</b>, Neuroscience, Oregon State University Ecampus · <b>Lecturer</b>, Biology, San Francisco State University · <b>Kavli-Grass Fellow</b> 2026, Marine Biological Laboratory</div>
     <p>I have been instructor of record at four institutions, from anatomy and physiology at a state college to upper-division molecular genetics and a graduate physiology seminar, and I design my research so that undergraduates can do the science rather than assist with it. I am on the faculty job market this year.</p>
 
     <div class="sec"><span class="n">§ 1</span><h2>Background</h2></div>
