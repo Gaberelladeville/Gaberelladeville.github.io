@@ -6,8 +6,8 @@ A self-contained static site. No build step, no dependencies: open `index.html` 
 
 ```
 index.html          Home: headline, three doors, bio, timeline, recent
-research.html       The question, the arm, published work, the program, students, feasibility
-teaching.html       Philosophy, practice, courses taught, prepared to teach, mentoring, development
+research.html       The question, the arm, published work, the program, students
+teaching.html       Philosophy, practice, courses taught, mentoring, development
 publications.html   Papers with DOIs, talks, awards
 horizons.html       Gastropod circuits, Ocean Genome Atlas Project, public science
 cv.html             Full CV (HTML)
