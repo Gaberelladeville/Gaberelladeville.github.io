@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Gabrielle Winters Bostwick — Updates</title>
+  <link>https://gaberelladeville.github.io/updates.html</link>
+  <atom:link href="https://gaberelladeville.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Updates from Gabrielle Winters Bostwick, molecular neuroscientist and comparative physiologist.</description>
+  <language>en-us</language>
+  <lastBuildDate>Mon, 23 Nov 2026 00:00:00 +0000</lastBuildDate>
+  <item><title>New paper! Do octopus arms follow a different set of rules?</title><link>https://gaberelladeville.github.io/updates-octopus-arms-different-rules.html</link><guid isPermaLink="false">octopus-arms-different-rules</guid><pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate><description>Octopus arms can perform astonishingly complex movements. Their neurons, meanwhile, appear to have opted for open-plan seating.</description></item>
+  <item><title>Selected for the Kavli Science and Society Sparks Program</title><link>https://gaberelladeville.github.io/updates-kavli-science-and-society-sparks.html</link><guid isPermaLink="false">kavli-science-and-society-sparks</guid><pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><description>Selected for the Kavli Foundation's Science and Society Sparks Program in public engagement.</description></item>
+  <item><title>Preprint on the intramuscular nerve cords of the octopus arm</title><link>https://gaberelladeville.github.io/updates-intramuscular-nerve-cords-preprint.html</link><guid isPermaLink="false">intramuscular-nerve-cords-preprint</guid><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><description>Preprint with three student co-authors on the intramuscular nerve cords of the octopus arm; in revision at the Journal of Comparative Neurology.</description></item>
+  <item><title>Kavli-Grass Fellowship at the Marine Biological Laboratory</title><link>https://gaberelladeville.github.io/updates.html#kavli-grass-fellowship</link><guid isPermaLink="false">kavli-grass-fellowship</guid><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate><description>Kavli-Grass Fellowship, Marine Biological Laboratory: calcium imaging in intact O. bimaculoides hatchling arms and a thermal challenge built on that preparation.</description></item>
+  <item><title>Invited talk at CephNeuro, Galveston</title><link>https://gaberelladeville.github.io/updates.html#cephneuro-galveston-talk</link><guid isPermaLink="false">cephneuro-galveston-talk</guid><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><description>Invited talk, CephNeuro, Galveston: molecular and functional mapping of the octopus arm nervous system.</description></item>
+</channel>
+</rss>
